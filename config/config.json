@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "twinkle-starts-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/twinkleStarts/TwinkleStartsFieldCustomizer.js",
+          "manifest": "./src/extensions/twinkleStarts/TwinkleStartsFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TwinkleStartsFieldCustomizerStrings": "lib/extensions/twinkleStarts/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "twinkle star field",
+    "id": "129fe47f-ad23-43f6-a242-efb007c547fa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "オフィスアイ株式会社",
+      "websiteUrl": "https://www.office-i-corpjp/",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "キラキラ光る星"
+      },
+      "longDescription": {
+        "default": "数値の数だけ星が表示されます"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "キラキラ光る星の列",
+        "description": "キラキラ光る星の列を利用できるようになります",
+        "id": "21180640-999b-4656-96e7-3d58fc16a494",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/twinkle-star.sppkg"
+  }
+}

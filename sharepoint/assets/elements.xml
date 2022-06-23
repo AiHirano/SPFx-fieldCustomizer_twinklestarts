@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{46de3221-12b2-48d9-9c43-3aa36d267341}"
+            Name="Twinkle stars"
+            DisplayName="キラキラ星"
+            Type="Number"
+            Min="0"
+            Required="FALSE"
+            Group="カスタム フィールド"
+            ClientSideComponentId="26986ee3-78fa-4c31-a652-830af66f9c13">
+    </Field>
+</Elements>

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://officeilearning.sharepoint.com/sites/SPFx-Labo-Alice/Lists/Stars/AllItems.aspx",
+      "fieldCustomizers": {
+        "Satellites": {
+          "id": "26986ee3-78fa-4c31-a652-830af66f9c13",
+          "properties":{
+            "sampleText":"Value"
+          }
+        }
+      }
+    },
+    "twinkleStarts": {
+      "pageUrl": "https://officeilearning.sharepoint.com/sites/SPFx-Labo-Alice/Lists/Stars/AllItems.aspx",
+      "fieldCustomizers": {
+        "Satellites": {
+          "id": "26986ee3-78fa-4c31-a652-830af66f9c13",
+          "properties":{
+            "sampleText":"Value"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "twinkle-star",
+    "libraryId": "129fe47f-ad23-43f6-a242-efb007c547fa",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "TwinkleStar",
+    "solutionShortDescription": "TwinkleStar description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}
